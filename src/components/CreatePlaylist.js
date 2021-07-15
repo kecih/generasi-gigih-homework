@@ -1,6 +1,6 @@
 import data from "../data"
 const CreatePlaylist = () => {
-    console.log(data.album.images[0].url)
+    // console.log(data.album.images[0].url)
     return <div>
     <h1>Create Playlist</h1>
     <img src={data.album.images[0].url} alt="album" />
