@@ -1,4 +1,4 @@
 const Button = (props) =>{
-    return <input type="button" value={props.value} />
+    return <input type="button" className="btn btn-primary" value={props.value} />
 }
 export default Button;

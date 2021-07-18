@@ -1,0 +1,7 @@
+.song-container{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
