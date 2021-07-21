@@ -1,11 +1,13 @@
 import './App.css';
 import PageHeading from "../src/components/PageHeading"
-import DataLoop from './components/DataLoop';
+import Songs from './components/Songs';
+import Login from './pages/Login';
 
 function App() {
   return <div className="App">
-    <PageHeading text="Create Playlist" />
-    <DataLoop />
+    {/* <PageHeading text="Create Playlist" /> */}
+    {/* <Songs /> */}
+    <Login />
   </div>
 }
 export default App;
