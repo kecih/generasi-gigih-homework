@@ -1,13 +1,12 @@
 import './App.css';
 import PageHeading from "../src/components/PageHeading"
-import Songs from './components/Songs';
-import Login from './pages/Login';
+import {spotifyLogin, getAccessToken} from './auth/auth'
+import Search from './pages/Search/Search';
 
 function App() {
   return <div className="App">
-    {/* <PageHeading text="Create Playlist" /> */}
-    {/* <Songs /> */}
-    <Login />
+    <PageHeading spotifyLogin={spotifyLogin} />
+    <Search getAccessToken={getAccessToken} />
   </div>
 }
 export default App;
